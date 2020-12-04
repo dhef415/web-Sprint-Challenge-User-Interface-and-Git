@@ -70,16 +70,20 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    width:100%;
+}
 
 nav a{
-    display:flex;
+    display: inline;
     text-decoration:none;
     color:black;
-    flex-flow:row;
-    justify-content:center;
+    padding: 12px 30px;
 }
+
 .topImage{
-    display:block;
+    display:flex;
+    justify-content: center;
     
 }
 
@@ -281,9 +285,25 @@ footer nav a {
 
 .secondRow{
     display:flex;
+    
 
 }
+.secondRow a{
+   
+}
+
 
 .thirdRow{
     display:flex;
+    margin-top: 5%;
+}
+
+.workTogether{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+button{
+    padding:5px 10px;
+    
+    
 }

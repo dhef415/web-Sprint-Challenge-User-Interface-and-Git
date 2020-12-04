@@ -272,3 +272,18 @@ footer nav a {
 
 /* ABOUT PAGE */
 
+.about{
+    display:box;
+    border-bottom: 3px dotted black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.secondRow{
+    display:flex;
+
+}
+
+.thirdRow{
+    display:flex;
+}
